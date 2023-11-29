@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style2.css">
+    <title>GAMBLING</title>
+</head>
+<body>
+    <header>
+        <h1>GAMBLING4FUN</h1>
+        <p>"Apostar, porque ganar dinero de manera segura es aburrido."</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Pq.html">Por qué apostar</a></li>
+            <li><a href="TOP5.html">Top 5</a></li>
+            <li><a href="donation.html">Donaciones</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>DONACIONES</h2>
+        <form action="procesar_donacion.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="cantidad">Cantidad a Donar:</label>
+            <input type="number" id="cantidad" name="cantidad" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <a href="donation2.html">
+                <button type="button">DONAR</button>
+            </a>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 GAMBLING4FUN. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
